@@ -1,5 +1,5 @@
-.loginScreen{
-    background-color: darkslategrey;
+.loginScreenSuporte{
+    background-color:darkslategrey;
     height: 100vh;
     width: 100vw;
 
@@ -7,8 +7,10 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+
 }
-.loginScreen nav{
+
+.loginScreenSuporte nav{
     padding: .5rem 2rem;
 
     position: absolute;
@@ -23,7 +25,7 @@
 
 }
 
-.loginScreen form{
+.loginScreenSuporte form{
     background-color: #e1e1e1;
     width: 350px;
     height: 300px;
@@ -35,21 +37,21 @@
     border-radius: 0.5rem;
 }
 
-.loginScreen input{
+.loginScreenSuporte input{
     margin-top: 0.7rem;
     padding: 0.6rem 0.8rem;
     border: none;
     border-radius: 0.5rem;
 }
 
-.loginScreen a{
+.loginScreenSuporte a{
     margin-top: .7rem;
     text-decoration: none;
     color: rgb(81, 81, 81);
     font-weight: 200;
 }
 
-.loginScreen a:hover{
+.loginScreenSuporte a:hover{
     color: black;
     font-weight: 400;
     transition: .8s;
@@ -57,7 +59,7 @@
 
 }
 
-.loginScreen button{
+.loginScreenSuporte button{
     margin-top: 2rem;
     padding: 0.6rem 0.8rem;
     border: none;
@@ -72,13 +74,13 @@
     cursor: pointer;
 
 }
-.loginScreen button:hover{
+.loginScreenSuporte button:hover{
     background: grey;
     color: white;
 
     transition: .8s;
 }
-.loginScreen h1{
+.loginScreenSuporte h1{
     font-weight: bold;
     font-size: 2rem;
     color: black;

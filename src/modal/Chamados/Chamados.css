@@ -8,5 +8,6 @@
     max-height: 80vh; /* A altura máxima será 80% da altura da tela */
     overflow-y: auto; /* Ativa a rolagem vertical quando o conteúdo exceder a altura */
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
 }
