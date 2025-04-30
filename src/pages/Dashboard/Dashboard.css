@@ -1,0 +1,59 @@
+.dashboardScreen{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.dashboardScreen nav{
+    padding: 1rem;
+    height: 4rem;
+    width: 100%;
+
+    background: #e1e1e1;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 0.2rem solid black;
+}
+
+.dashboardScreen a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2rem;
+}
+
+.dashboardScreen a:hover{
+    font-weight: 900;
+    transition: .5s;
+}
+
+.dashboardContainer{
+    display: flex;
+}
+.sideBar{
+    display: flex;
+    flex-direction: column;
+    width: 4rem;
+    background: #e1e1e1;
+    height: calc(100vh - 4rem);
+}
+
+.sideBar button{
+    background: none;
+    border: none;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.icon{
+    width: 3rem;
+}
+
+
+.screensContainer{
+    width: calc(100vw - 3rem);
+    height: calc(100vh - 4rem);
+    padding: 1rem;
+}

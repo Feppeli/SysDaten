@@ -1,0 +1,32 @@
+.chamado{
+    padding: 1rem;
+    background-color: #1f1f1f;
+    border-radius: 8px;
+    margin: 1rem;
+    color: white;
+}
+
+.actions{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 215px;
+}
+
+.actions button{
+    margin: 1px;
+    margin-top: 1rem;
+    padding: .5rem 2rem;
+
+    border-radius: .2rem;
+    cursor: pointer;
+    max-width: 50%;
+    border: none;
+}
+
+.actions button:hover{
+    background-color:yellowgreen ;
+    font-weight: bold;
+
+
+}

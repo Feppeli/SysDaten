@@ -1,0 +1,12 @@
+.chamadosContainer {
+    width: 100%; /* Ocupa toda a largura da tela */
+    display: flex;
+    justify-content: center;
+
+}
+.chamadosList {
+    max-height: 80vh; /* A altura máxima será 80% da altura da tela */
+    overflow-y: auto; /* Ativa a rolagem vertical quando o conteúdo exceder a altura */
+    display: flex;
+    flex-wrap: wrap;
+}
