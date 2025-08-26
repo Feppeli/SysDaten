@@ -8,7 +8,7 @@ const Chamados = () => {
 
     useEffect(() => {
         const novosChamados = [];
-        for (let i = 0; i < 60; i++) {
+        for (let i = 0; i < 7; i++) {
             novosChamados.push(
                 <Chamado 
                     key={i} 
